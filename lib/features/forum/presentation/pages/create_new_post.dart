@@ -14,23 +14,24 @@ class CreateNewPost extends StatelessWidget {
             child: Column(
               children: [
                 Row(
-                      children: [
-                        Align(
-                          alignment: Alignment.topLeft,
-                          child: IconButton(
-                            onPressed: () {},
-                            icon: Icon(Icons.arrow_back_ios),
-                          ),
-                        ),
-                        SizedBox(
-                          width: 75.w,
-                        ),
-                        Text(
-                          "Create New Post",
-                          style: Theme.of(context).textTheme.subtitle2,
-                        )
-                      ],
+                  children: [
+                    Align(
+                      alignment: Alignment.topLeft,
+                      child: IconButton(
+                        onPressed: () {},
+                        icon: Icon(Icons.arrow_back_ios),
+                      ),
                     ),
+                    SizedBox(
+                      width: 75.w,
+                    ),
+                    Text(
+                      "Create New Post",
+                      style: Theme.of(context).textTheme.subtitle2,
+                    )
+                  ],
+                ),
+                
               ],
             ),
           ),
